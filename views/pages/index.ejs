@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Can We Golf? | Weather Conditions</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,400i,500,700,700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/public/css/styles.css">
+
+</head>
+<body>
+
+	<header> 
+		<img src="public/assets/logo.svg">
+	</header>
+
+	<div class="search-bar">
+		<input type="text" id="search-input" placeholder="Enter your zip code">
+		<button type="button" onclick="searchBarFadeOut()">ENTER</button>
+	</div>
+	
+<div class="weather-wrapper">
+	<div class="weather-cards">
+		<div class="main-card">
+			<p class="date">2/7/18</p>
+			<img class="weather-icon" src="public/assets/weather-icons/rain-weather.svg">
+			<p class="condition">Rain</p>
+			<div class="current-temp">
+				<p>NOW:</p>
+				<p>68°</p>
+			</div>
+
+			<div class="weather-details">
+			<div class="low-high-temp">
+				<div class="low-temp">
+					<p>low:</p>
+					<p>64°</p>
+				</div>
+				<div class="high-temp">
+					<p>high:</p>
+					<p>72°</p>
+				</div>
+			</div>
+			<div class="wind-speed-direction">
+				<div class="wind-speed">
+					<p>wind speed:</p>
+					<p>7 mph</p>
+				</div>
+				<div class="wind-direction">
+					<p>wind direction:</p>
+					<p>ESE</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="main-card">
+			<p class="date">2/7/18</p>
+			<img class="weather-icon" src="public/assets/weather-icons/partially-cloudy-weather-day.svg">
+			<p class="condition">Partly Cloudy</p>
+			<div class="current-temp">
+				<p>LOW:</p>
+				<p>58°</p>
+				<p>HIGH:</p>
+				<p>69°</p>
+			</div>
+
+
+			<div class="weather-details">
+			<div class="low-high-temp">
+				<div class="low-temp">
+					<p>low:</p>
+					<p>64°</p>
+				</div>
+				<div class="high-temp">
+					<p>high:</p>
+					<p>72°</p>
+				</div>
+			</div>
+			<div class="wind-speed-direction">
+				<div class="wind-speed">
+					<p>wind speed:</p>
+					<p>7 mph</p>
+				</div>
+				<div class="wind-direction">
+					<p>wind direction:</p>
+					<p>ESE</p>
+				</div>
+			</div>
+		</div>	
+		</div>	
+	</div>
+
+	<div class="three-day-outlook">
+		<div class="three-day-card">
+			<p class="date">2/7/18</p>
+			<img class="weather-icon-lg" src="public/assets/weather-icons/cloudy-weather.svg">
+			<p class="condition">Cloudy</p>
+			<div class="low-high-temp">
+				<div class="low-temp">
+					<p>low:</p>
+					<p>64°</p>
+				</div>
+				<div class="high-temp">
+					<p>high:</p>
+					<p>72°</p>
+				</div>
+			</div>
+		</div>
+		<div class="three-day-card">
+			<p class="date">2/7/18</p>
+			<img class="weather-icon-lg" src="public/assets/weather-icons/thunderstorm-weather.svg">
+			<p class="condition">Thunderstom</p>
+			<div class="low-high-temp">
+				<div class="low-temp">
+					<p>low:</p>
+					<p>62°</p>
+				</div>
+				<div class="high-temp">
+					<p>high:</p>
+					<p>68°</p>
+				</div>
+			</div>
+		</div>
+		<div class="three-day-card"><p class="date">2/7/18</p>
+			<img class="weather-icon-lg" src="public/assets/weather-icons/clear-weather-day.svg">
+			<p class="condition">Clear</p>
+			<div class="low-high-temp">
+				<div class="low-temp">
+					<p>low:</p>
+					<p>48°</p>
+				</div>
+				<div class="high-temp">
+					<p>high:</p>
+					<p>63°</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<footer>
+		<a href="#"><img src="public/assets/github-link.svg"></a>
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="public/js/frontend.js"></script>
+</body>
+</html>
